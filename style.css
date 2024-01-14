@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+header{
+    background-image: linear-gradient(120deg, #5c2ce9c4 0%, #f68084 100%);
+    height: 70px;
+    margin: 140px 110px; 
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 296px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+ul li{
+    font-size: 12px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.day905{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 75px;
+    border: 0.5px solid rgb(255, 236, 236);
+    border-radius: 5px;
+    height: 61px;
+    width: 60px;
+    margin-top: 2px;
+}
+.padding{
+    padding-top: 7px;
+}
+
+main{
+    margin: 110px 110px;
+    height: 310px;
+    background-image: linear-gradient(120deg, #5c2ce9c4 0%, #f68084 100%);
+}
+.section{
+    margin-top: 100px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    background-color: rgba(0, 0, 0, 0.39);
+    /* background-color: transparent; */
+    border: 1px solid white;
+    color: white;
+    /* padding: 9px 40px; */
+    padding: 9px 5px;
+    width: 290px;
+    border-radius: 5px;
+}
+#submit{
+    background-color:transparent;
+    border: 1px solid white;
+    padding: 9px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+small{
+    font-size: 10px;
+}
+::placeholder {
+    color: rgb(180, 176, 176);
+    opacity: 1; /* Firefox */
+  }
